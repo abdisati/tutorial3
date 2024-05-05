@@ -1,0 +1,46 @@
+@font-face{
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+@font-face{
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: openSans;
+}
+h1 {
+    font-family:Roboto-Regular,verdana, arial;
+   border:3px solid red;
+    border-radius: 5px;
+    text-shadow: 3px 3px 3px red, 5px 5px 5px green;
+}
+
+p{
+    font-family: "openSans", "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 3px solid green;
+    border-top: 3px solid yellow;
+    border-left: 3px solid red;
+    border-right: 3px solid green;
+}
+
+body{
+    margin: 4px;
+}
+.box{
+    border:5px solid;
+    width: 250px;
+    font-size: 5em;
+    height: 250px;
+    
+}
+
+#box1{
+    background-color:rgb(230, 74, 12);
+    margin:auto;
+
+
+}
+#box2{
+    background-color:rgb(141, 173, 221);
+}
